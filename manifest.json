@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "version":"0.0.1",
+    "name":"OS extension",
+    "description":"Gerador de menssagem para envio de OS",
+    "author":"Rodolfo",
+    "permissions": [
+        "sidePanel",
+        "contextMenus"
+      ],
+
+    "background": {
+      "service_worker": "background.js"
+    },
+
+    "side_panel": {
+      "default_path": "sidepanel.html"
+    },
+    "browser_action":{
+        "default_title": "menssagem de OS"
+
+    }
+
+}
