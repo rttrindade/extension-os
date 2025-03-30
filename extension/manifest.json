@@ -1,0 +1,10 @@
+{
+    "name": "Gerador de OS",
+    "version": "1.0",
+    "description": "Gerador de menssagem para envio de OS",
+    "manifest_version": 3,
+    "permissions": ["contextMenus", "activeTab", "sidePanel"],
+    "side_panel" :{
+        "default_path": "sidepanel.html"
+    }
+  }
